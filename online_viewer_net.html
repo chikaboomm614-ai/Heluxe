@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Heluxe Air</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+html{
+scroll-behavior:smooth;
+}
+
+body{
+font-family:
+-apple-system,
+BlinkMacSystemFont,
+"SF Pro Display",
+"SF Pro Text",
+sans-serif;
+background:#fff;
+color:#1d1d1f;
+overflow-x:hidden;
+}
+
+.nav{
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:52px;
+background:rgba(255,255,255,.75);
+backdrop-filter:blur(25px);
+display:flex;
+justify-content:center;
+align-items:center;
+z-index:1000;
+border-bottom:1px solid rgba(0,0,0,.08);
+transition:.3s;
+}
+
+.nav span{
+font-size:14px;
+font-weight:600;
+}
+
+.hero{
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px;
+position:relative;
+overflow:hidden;
+}
+
+.hero h1{
+font-size:120px;
+font-weight:700;
+letter-spacing:-0.07em;
+line-height:1;
+transition:.4s;
+}
+
+.hero h2{
+font-size:34px;
+font-weight:500;
+margin-top:10px;
+color:#6e6e73;
+}
+
+.hero p{
+font-size:21px;
+color:#86868b;
+margin-top:15px;
+}
+
+.links{
+margin-top:25px;
+display:flex;
+gap:30px;
+}
+
+.links a{
+text-decoration:none;
+color:#0066cc;
+font-size:21px;
+font-weight:500;
+}
+
+.links a:hover{
+text-decoration:underline;
+}
+
+.product-image{
+width:1000px;
+max-width:95%;
+margin-top:50px;
+transform:scale(.7);
+opacity:.6;
+will-change:transform;
+transition:transform .1s linear;
+filter:drop-shadow(0 50px 80px rgba(0,0,0,.15));
+}
+
+.watch{
+padding:150px 20px;
+background:#f5f5f7;
+text-align:center;
+overflow:hidden;
+}
+
+.watch h1{
+font-size:90px;
+font-weight:700;
+letter-spacing:-0.05em;
+}
+
+.watch h2{
+font-size:32px;
+font-weight:500;
+margin-top:10px;
+color:#6e6e73;
+}
+
+.watch-image{
+width:500px;
+max-width:90%;
+margin-top:60px;
+transform:scale(.85);
+transition:.1s;
+filter:drop-shadow(0 40px 60px rgba(0,0,0,.18));
+}
+
+.specs{
+padding:120px 30px;
+display:flex;
+justify-content:center;
+gap:100px;
+flex-wrap:wrap;
+text-align:center;
+}
+
+.card{
+width:250px;
+}
+
+.card h3{
+font-size:50px;
+font-weight:700;
+}
+
+.card p{
+font-size:18px;
+margin-top:8px;
+color:#6e6e73;
+}
+
+.dark{
+background:#000;
+color:white;
+text-align:center;
+padding:180px 20px;
+}
+
+.dark h1{
+font-size:100px;
+letter-spacing:-0.06em;
+}
+
+.dark p{
+font-size:28px;
+margin-top:15px;
+color:#a1a1a6;
+}
+
+.footer{
+padding:50px;
+text-align:center;
+font-size:12px;
+color:#86868b;
+border-top:1px solid #d2d2d7;
+}
+
+@media(max-width:768px){
+
+.hero h1{
+font-size:72px;
+}
+
+.hero h2{
+font-size:24px;
+}
+
+.watch h1{
+font-size:58px;
+}
+
+.dark h1{
+font-size:58px;
+}
+
+.product-image{
+width:700px;
+}
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="nav">
+<span>Heluxe</span>
+</div>
+
+<section class="hero">
+
+<h1 id="title">Heluxe Air</h1>
+
+<h2>Impossible thin.</h2>
+
+<p>Dirancang untuk masa depan.</p>
+
+<div class="links">
+<a href="#">Pelajari lebih lanjut ></a>
+<a href="#">Beli ></a>
+</div>
+
+<!-- GANTI DENGAN GAMBAR HELUXE AIR -->
+<img
+src="heluxe-air.png"
+class="product-image">
+
+</section>
+
+<section class="dark">
+
+<h1>Lebih tipis dari sebelumnya.</h1>
+
+<p>Desain ultra ringan dengan performa luar biasa.</p>
+
+</section>
+
+<section class="watch">
+
+<h1>Hiwatcc</h1>
+
+<h2>Koneksi sempurna dengan Heluxe Air.</h2>
+
+<div class="links">
+<a href="#">Pelajari lebih lanjut ></a>
+<a href="#">Beli ></a>
+</div>
+
+<!-- GANTI DENGAN GAMBAR HIWATCC -->
+<img
+src="hiwatcc.png"
+class="watch-image">
+
+</section>
+
+<section class="specs">
+
+<div class="card">
+<h3>5.8mm</h3>
+<p>Ultra Thin Design</p>
+</div>
+
+<div class="card">
+<h3>120Hz</h3>
+<p>Heluxe Motion Display</p>
+</div>
+
+<div class="card">
+<h3>48H</h3>
+<p>Battery Life</p>
+</div>
+
+<div class="card">
+<h3>AI</h3>
+<p>Heluxe Intelligence</p>
+</div>
+
+</section>
+
+<div class="footer">
+Copyright © 2026 Heluxe Inc. All rights reserved.
+</div>
+
+<script>
+
+const hero = document.querySelector('.hero');
+const image = document.querySelector('.product-image');
+const watch = document.querySelector('.watch-image');
+const title = document.getElementById('title');
+
+window.addEventListener('scroll',()=>{
+
+const heroRect = hero.getBoundingClientRect();
+
+let progress = Math.min(
+Math.max(-heroRect.top/window.innerHeight,0),
+1
+);
+
+image.style.transform =
+`scale(${0.7 + progress * 0.7})`;
+
+image.style.opacity =
+`${0.5 + progress * 0.5}`;
+
+title.style.transform =
+`translateY(${progress * -120}px) scale(${1 - progress * 0.3})`;
+
+const watchSection =
+watch.getBoundingClientRect();
+
+let watchProgress = Math.min(
+Math.max(
+(window.innerHeight - watchSection.top)
+/
+window.innerHeight,
+0
+),
+1
+);
+
+
+watch.style.transform =
+`scale(${0.85 + watchProgress * 0.3})`;
+
+});
+
+</script>
+
+</body>
+</html>
